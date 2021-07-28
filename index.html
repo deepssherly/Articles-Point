@@ -30,8 +30,8 @@
                 <ul class="navbar-nav">
                     <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
                     <li class="nav-item"><a href="#category" class="nav-link active">Category</a></li>
-                    <li class="nav-item"><a href="" class="nav-link active">About</a></li>
-                    <li class="nav-item"><a href="" class="nav-link active">Contact us</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link active">About</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link active">Contact us</a></li>
                 </ul>
             </div>
             <form class="d-flex my-1">
@@ -55,9 +55,8 @@
                         </div>
                         <img src="assets/mental-health.jpg" class="card-img-top" alt="..." height="230">
                         <div class="card-body">
-                            <h5 class="card-title">Title</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            <a href="#" class="btn btn-secondary">Read Article</a>
+                            <h5 class="card-title">The Importance of Mental Health Awareness</h5>
+                            <a href="articles/mentalhealth.html" class="btn btn-secondary my-2">Read Article</a>
                         </div>
                     </div>
                 </div>
@@ -68,9 +67,8 @@
                         </div>
                         <img src="assets/travel.jpg" class="card-img-top" alt="..." height="230">
                         <div class="card-body">
-                            <h5 class="card-title">Title</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            <a href="#" class="btn btn-secondary">Read Article</a>
+                            <h5 class="card-title">The World’s Most Interesting Journeys</h5>
+                            <a href="articles/travel.html" class="btn btn-secondary my-2">Read Article</a>
                         </div>
                     </div>
                 </div>
@@ -81,9 +79,8 @@
                         </div>
                         <img src="assets/sports.jpg" class="card-img-top" alt="..." height="230">
                         <div class="card-body">
-                            <h5 class="card-title">Title</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            <a href="#" class="btn btn-secondary">Read Article</a>
+                            <h5 class="card-title">Role of competitive sports in youth development.</h5>
+                            <a href="articles/sports.html" class="btn btn-secondary my-2">Read Article</a>
                         </div>
                     </div>
                 </div>
@@ -96,9 +93,8 @@
                         </div>
                         <img src="assets/food.jfif" class="card-img-top" alt="..." height="230">
                         <div class="card-body">
-                            <h5 class="card-title">Title</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            <a href="#" class="btn btn-secondary">Read Article</a>
+                            <h5 class="card-title">Food Recommendations For Life : Nutrition</h5>
+                            <a href="articles/food.html" class="btn btn-secondary my-2">Read Article</a>
                         </div>
                     </div>
                 </div>
@@ -109,8 +105,8 @@
                         </div>
                         <img src="assets/fitness.jpg" class="card-img-top" alt="..." height="230">
                         <div class="card-body">
-                            <h5 class="card-title">Title</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> <a href="#" class="btn btn-secondary">Read Article</a>
+                            <h5 class="card-title">The Importance of Physical Fitness and Health</h5>
+                            <a href="articles/fitness.html" class="btn btn-secondary my-2">Read Article</a>
                         </div>
                     </div>
                 </div>
@@ -121,10 +117,8 @@
                         </div>
                         <img src="assets/music.jpg" class="card-img-top" alt="..." height="230">
                         <div class="card-body">
-                            <h5 class="card-title">Title</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-
-                            <a href="#" class="btn btn-secondary">Read Article</a>
+                            <h5 class="card-title">The Uses and Benefits of Music Therapy</h5>
+                            <a href="articles/music.html" class="btn btn-secondary my-2">Read Article</a>
                         </div>
                     </div>
                 </div>
@@ -141,22 +135,22 @@
                         <button class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">Choose a category</button>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="" class="dropdown-item">Mental Health</a>
+                                <a href="articles/mentalhealth.html" class="dropdown-item">Mental Health</a>
                             </li>
                             <li>
-                                <a href="" class="dropdown-item">Food</a>
+                                <a href="articles/food.html" class="dropdown-item">Food</a>
                             </li>
                             <li>
-                                <a href="" class="dropdown-item">Fitness</a>
+                                <a href="articles/fitness.html" class="dropdown-item">Fitness</a>
                             </li>
                             <li>
-                                <a href="" class="dropdown-item">Travel</a>
+                                <a href="articles/travel.html" class="dropdown-item">Travel</a>
                             </li>
                             <li>
-                                <a href="" class="dropdown-item">Sports</a>
+                                <a href="articles/sports.html" class="dropdown-item">Sports</a>
                             </li>
                             <li>
-                                <a href="" class="dropdown-item">Fashion</a>
+                                <a href="articles/music.html" class="dropdown-item">Music</a>
                             </li>
                         </ul>
                     </div>
@@ -171,75 +165,81 @@
                     <div class="accordion">
                         <div class="accordion-item ">
                             <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                     Mental Health
                                   </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, cum maiores. Harum nulla ipsam eveniet porro ex, dolorem, quae nam facilis animi, perspiciatis voluptas atque iusto sit corrupti inventore in.
+                                    The Importance of Mental Health Awareness - By Jean Holthaus
+                                    <a href="articles/mentalhealth.html"> <button class="float-end btn btn-outline-dark"><i class="bi bi-arrow-right-circle-fill"></i></button></a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseOne">
                                     Travel
                                   </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, cum maiores. Harum nulla ipsam eveniet porro ex, dolorem, quae nam facilis animi, perspiciatis voluptas atque iusto sit corrupti inventore in.
+                                    The World’s Most Interesting Journeys - By Sahar Aman
+                                    <a href="articles/travel.html"> <button class="float-end btn btn-outline-dark"><i class="bi bi-arrow-right-circle-fill"></i></button></a>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseOne">
                                     Sports
                                   </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, cum maiores. Harum nulla ipsam eveniet porro ex, dolorem, quae nam facilis animi, perspiciatis voluptas atque iusto sit corrupti inventore in.
+                                    Role of competitive sports in youth development - By Daniel Francis Perkins
+                                    <a href="articles/sports.html"> <button class="float-end btn btn-outline-dark"><i class="bi bi-arrow-right-circle-fill"></i></button></a>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseOne">
                                     Food
                                   </button>
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, cum maiores. Harum nulla ipsam eveniet porro ex, dolorem, quae nam facilis animi, perspiciatis voluptas atque iusto sit corrupti inventore in.
+                                    Food Recommendations For Life : Nutrition - By Tejal Rao
+                                    <a href="articles/food.html"> <button class="float-end btn btn-outline-dark"><i class="bi bi-arrow-right-circle-fill"></i></button></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseOne">
                                 Fitness
                               </button>
                         </h2>
                         <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, cum maiores. Harum nulla ipsam eveniet porro ex, dolorem, quae nam facilis animi, perspiciatis voluptas atque iusto sit corrupti inventore in.
+                                The Importance of Physical Fitness - By Julia E Hubbel
+                                <a href="articles/fitness.html"> <button class="float-end btn btn-outline-dark"><i class="bi bi-arrow-right-circle-fill"></i></button></a>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseOne">
-                                Fashion
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseOne">
+                                Music
                               </button>
                         </h2>
                         <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, cum maiores. Harum nulla ipsam eveniet porro ex, dolorem, quae nam facilis animi, perspiciatis voluptas atque iusto sit corrupti inventore in.
+                                The Uses and Benefits of Music Therapy - By Carissa Stephens
+                                <a href="articles/music.html"> <button class="float-end btn btn-outline-dark"><i class="bi bi-arrow-right-circle-fill"></i></button></a>
                             </div>
                         </div>
                     </div>
@@ -247,7 +247,15 @@
             </div>
         </div>
     </section>
-    <section id="contact">
+    <section id="about" class="bg-altlight py-2">
+        <div class="container">
+            <h2 class="text-center my-4">ABOUT ARTICLES POINT</h2>
+            <img src="assets/about.jpg" alt="" width="950" height="350" class="d-block mx-auto">
+            <h5 class="my-4 text-center">Articles Point is the website that provides you some of the articles with interesting topics based on category!<br>Article points also provides you the best content for your life!!</h5>
+        </div>
+
+    </section>
+    <section id="contact" class="my-4">
         <div class="container-xl">
             <h2 class="text-center">CONTACT US</h2>
             <div class="row justify-content-center my-5">
