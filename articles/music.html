@@ -41,7 +41,8 @@
             <h2 class="text-center">The Uses and Benefits of Music Therapy</h2>
             <hr>
             <h6 class="text-muted text-end me-5">- By Carissa Stephens</h6>
-            <img src="../assets/music-1.jpeg" alt="" class="mx-auto d-block" width="800" height="350">
+            <button type="button" class="btn btn-sm btn-dark float-end me-5" data-bs-toggle="popover" data-bs-placement="bottom" title="Carissa Stephens" data-bs-content="Carissa Stephens is a pediatric nurse. She graduated from the School of Nursing, Capella University in Minneapolis, Minnesota. She has worked most of her career in a pediatric Level I trauma center. She is currently a nurse in a pediatric intensive care unit. Carissa has a special expertise in the extracorporeal membrane oxygenation (ECMO). She practices yoga every day and she enjoys the outdoors and live music with her family.">About Author</button>
+            <img src="../assets/music-1.jpeg" alt="" class="mx-auto d-block my-5" width="800" height="350">
             <h5 class="mt-4 mx-5">What is music therapy?</h5>
             <p class="mt-4 mx-5">Sound healing therapy uses aspects of music to improve physical and emotional health and well-being. The person being treated partakes in the experience with a trained practitioner. Music therapy may involve:</p>
             <ul class="mt-4 mx-5">
@@ -108,6 +109,12 @@
 
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+        var popoverList = popoverTriggerList.map(function(popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl);
+        });
+    </script>
 </body>
 
 </html>

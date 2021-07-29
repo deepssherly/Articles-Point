@@ -41,28 +41,29 @@
             <h2 class="text-center">The Importance of Mental Health Awareness</h2>
             <hr>
             <h6 class="text-muted text-end me-5">- By Jean Holthaus</h6>
-            <img src="../assets/mt-1.jfif" alt="" class="mx-auto d-block" width="800" height="350">
+            <button type="button" class="btn btn-sm btn-dark float-end me-5" data-bs-toggle="popover" data-bs-placement="bottom" title="Jean Holthaus " data-bs-content="Jean Holthaus, LISW, LMSW, has more than 25 years' experience providing therapy. She currently works as a clinician and manages two clinics for Pine Rest Christian Mental Health Services. Her professional experience includes working with individuals, couples, and families dealing with abuse, anxiety, depression, marital issues, divorce, spiritual issues, changes of life, parenting, and more. A member of the National Association of Social Workers and the American Association of Christian Counselors, Jean lives in Pella, Iowa.">About Author</button>
+            <img src="../assets/mt-1.jfif " alt=" " class="mx-auto d-block my-5 " width="800 " height="350 ">
 
-            <p class="mt-4 mx-5">Mental illnesses affect 19% of the adult population, 46% of teenagers and 13% of children each year. People struggling with their mental health may be in your family, live next door, teach your children, work in the next cubicle or sit in
+            <p class="mt-4 mx-5 ">Mental illnesses affect 19% of the adult population, 46% of teenagers and 13% of children each year. People struggling with their mental health may be in your family, live next door, teach your children, work in the next cubicle or sit in
                 the same church pew. However, only half of those affected receive treatment, often because of the stigma attached to mental health. Untreated, mental illness can contribute to higher medical expenses, poorer performance at school and work,
                 fewer employment opportunities and increased risk of suicide.</p>
-            <h5 class="mt-4 mx-5">What Exactly is a Mental Illness?</h5>
-            <p class="mt-4 mx-5">A mental illness is a physical illness of the brain that causes disturbances in thinking, behavior, energy or emotion that make it difficult to cope with the ordinary demands of life. Research is starting to uncover the complicated causes
+            <h5 class="mt-4 mx-5 ">What Exactly is a Mental Illness?</h5>
+            <p class="mt-4 mx-5 ">A mental illness is a physical illness of the brain that causes disturbances in thinking, behavior, energy or emotion that make it difficult to cope with the ordinary demands of life. Research is starting to uncover the complicated causes
                 of these diseases which can include genetics, brain chemistry, brain structure, experiencing trauma and/or having another medical condition, like heart disease.</p>
-            <p class="mt-4 mx-5">The two most common mental health conditions are:</p>
-            <h6 class="mt-4 mx-5">Anxiety Disorders </h6>
-            <p class="mt-4 mx-5">More than 18% of adults each year struggle with some type of anxiety disorder, including post-traumatic stress disorder (PTSD), obsessive-compulsive disorder (OCD), panic disorder (panic attacks), generalized anxiety disorder and specific
+            <p class="mt-4 mx-5 ">The two most common mental health conditions are:</p>
+            <h6 class="mt-4 mx-5 ">Anxiety Disorders </h6>
+            <p class="mt-4 mx-5 ">More than 18% of adults each year struggle with some type of anxiety disorder, including post-traumatic stress disorder (PTSD), obsessive-compulsive disorder (OCD), panic disorder (panic attacks), generalized anxiety disorder and specific
                 phobias.
             </p>
-            <h6 class="mt-4 mx-5">Mood Disorders</h6>
-            <p class="mt-4 mx-5"> Mood disorders, such as depression and bipolar depression, affect nearly 10% of adults each year and are characterized by difficulties in regulating one’s mood.</p>
+            <h6 class="mt-4 mx-5 ">Mood Disorders</h6>
+            <p class="mt-4 mx-5 "> Mood disorders, such as depression and bipolar depression, affect nearly 10% of adults each year and are characterized by difficulties in regulating one’s mood.</p>
 
-            <div class="row mt-4 mx-3">
-                <div class="col-lg-6">
-                    <img src="../assets/mh-2.png" alt="" width="600" height="500" class="mt-2">
+            <div class="row mt-4 mx-3 ">
+                <div class="col-lg-6 ">
+                    <img src="../assets/mh-2.png " alt=" " width="600 " height="500 " class="mt-2 ">
                 </div>
-                <div class="col-lg-6">
-                    <h5 class="mt-4 mx-5">What You Can Do to Help?</h5>
+                <div class="col-lg-6 ">
+                    <h5 class="mt-4 mx-5 ">What You Can Do to Help?</h5>
                     <p>Although the general perception of mental illness has improved over the past decades, studies show that stigma against mental illness is still powerful, largely due to media stereotypes and lack of education, and that people tend to
                         attach negative stigmas to mental health conditions at a far higher rate than to other diseases and disabilities, such as cancer, diabetes or heart disease. Stigma affects not only the number seeking treatment, but also the number
                         of resources available for proper treatment.<br> Stigma and misinformation can feel like overwhelming obstacles for someone who is struggling with a mental health condition. Here a few powerful things you can do to help:</p>
@@ -80,14 +81,20 @@
                     </ul>
                 </div>
             </div>
-            <form action="" class="mt-4 mx-5">
-                <textarea name="" id="" cols="20" rows="6" placeholder="Leave a comment..." class="form-control my-3"></textarea>
-                <button class="btn btn-secondary">Submit</button>
+            <form action=" " class="mt-4 mx-5 ">
+                <textarea name=" " id=" " cols="20 " rows="6 " placeholder="Leave a comment... " class="form-control my-3 "></textarea>
+                <button class="btn btn-secondary ">Submit</button>
             </form>
         </div>
 
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+        var popoverList = popoverTriggerList.map(function(popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl);
+        });
+    </script>
 </body>
 
 </html>

@@ -41,7 +41,8 @@
             <h2 class="text-center">Food Recommendations For Life : Nutrition</h2>
             <hr>
             <h6 class="text-muted text-end me-5">- By Tejal Rao</h6>
-            <img src="../assets/food-1.jpg" alt="" class="mx-auto d-block" width="800" height="350">
+            <button type="button" class="btn btn-sm btn-dark float-end me-5" data-bs-toggle="popover" data-bs-placement="bottom" title="Tejal Rao" data-bs-content="Tejal Rao, the New York Times’ California food critic, comes from a rich immigrant background. Her mother was born in Uganda and grew up in Kenya, while her father was raised in India. Rao was born in London but, due to her father’s job, spent time in Kuwait, Sudan, and rural France before her family settled in Atlanta, Georgia, when she was a teen. “Living as an immigrant is the only experience I know,” she says. “I can’t imagine living any other way.”">About Author</button>
+            <img src="../assets/food-1.jpg" alt="" class="mx-auto d-block my-5" width="800" height="350">
 
             <p class="mt-4 mx-5">Good nutrition is one of the keys to a healthy life. You can improve your health by keeping a balanced diet. You should eat foods that contain vitamins and minerals. This includes fruits, vegetables, whole grains, dairy, and a source of protein.
                 Ask yourself the following questions. If you answer yes to any of them, talk to your doctor about your health. You may need to improve your eating habits for better nutrition:</p>
@@ -105,6 +106,12 @@
 
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+        var popoverList = popoverTriggerList.map(function(popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl);
+        });
+    </script>
 </body>
 
 </html>

@@ -41,7 +41,8 @@
             <h2 class="text-center">The World’s Most Interesting Journeys</h2>
             <hr>
             <h6 class="text-muted text-end me-5">- By Sahar Aman</h6>
-            <img src="../assets/travel-1.jpg" alt="" class="mx-auto d-block" width="800" height="350">
+            <button type="button" class="btn btn-sm btn-dark float-end me-5" data-bs-toggle="popover" data-bs-placement="bottom" title="Sahar Aman" data-bs-content="A British and Pakistani writer currently living Canada. I'm a wannabe Pathan and a wannabe Italian. My greatest joy in life is uprooting myself and moving to a different country. I have a hunger for stories, adventure, and culture. When I'm not writing or travelling, you can find me flexing my metatarsal in a dance studio. Read about some of my shenanigans on www.saharaman.com.">About Author</button>
+            <img src="../assets/travel-1.jpg" alt="" class="mx-auto d-block my-5" width="800" height="350">
             <p class="mt-4 mx-5">Many of these epic historical and cultural routes have shaped the world as we know it. Whether you’re exploring the ghost towns of Route 66 or rolling along the tracks from Russia to China on the Trans-Siberian Express, embark on one of the
                 world’s most interesting journeys for the overland adventure of a lifetime.</p>
             <h5 class="mt-4 mx-5">1. Find out what happened to Route 66</h5>
@@ -94,6 +95,12 @@
 
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+        var popoverList = popoverTriggerList.map(function(popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl);
+        });
+    </script>
 </body>
 
 </html>

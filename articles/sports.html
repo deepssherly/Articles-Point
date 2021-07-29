@@ -41,7 +41,8 @@
             <h2 class="text-center">Role of competitive sports in youth development</h2>
             <hr>
             <h6 class="text-muted text-end me-5">- By Daniel Francis Perkins</h6>
-            <img src="../assets/sports-1.jpg" alt="" class="mx-auto d-block" width="800" height="350">
+            <button type="button" class="btn btn-sm btn-dark float-end me-5" data-bs-toggle="popover" data-bs-placement="bottom" title="Daniel Francis Perkins" data-bs-content="Daniel F. Perkins is a Professor of Family and Youth Resiliency and Policy at the Pennsylvania State University. He is Director of an applied research center, the Clearinghouse for Military Family Readiness at Penn State (http://www.militaryfamilies.psu.edu/). The Clearinghouse is an interactive, knowledge-based platform for helping professionals supporting military families to support their program implementation and assessment activities. ">About Author</button>
+            <img src="../assets/sports-1.jpg" alt="" class="mx-auto d-block my-5" width="800" height="350">
 
             <p class="mt-4 mx-5">Sports can be a fun and engaging way for children and youth to learn some important lessons about life. Studies suggest that participation in sports can be very beneficial, fostering responsible social behaviors, greater academic success,
                 and an appreciation of personal health and fitness. Participating on a team also can give children or youth an important sense of belonging.</p>
@@ -106,6 +107,12 @@
 
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+        var popoverList = popoverTriggerList.map(function(popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl);
+        });
+    </script>
 </body>
 
 </html>
